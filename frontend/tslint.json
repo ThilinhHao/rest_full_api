@@ -1,0 +1,14 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-standard", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "no-use-before-declare": true,
+    "react/destructuring-assignment": true,
+    "no-unused-expression": [true, "allow-fast-null-checks"]
+  },
+  "linterOptions": {
+    "exclude": ["src/serviceWorker.ts"]
+  }
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: NotoSansJPBlack;
+  src: url('../assets/font/NotoSansJP-Black.otf');
+}
+@font-face {
+  font-family: NotoSansJPBold;
+  src: url('../assets/font/NotoSansJP-Bold.otf');
+}
+@font-face {
+  font-family: NotoSansJPMedium;
+  src: url('../assets/font/NotoSansJP-Medium.otf');
+}
+@font-face {
+  font-family: NotoSansJPRegular;
+  src: url('../assets/font/NotoSansJP-Regular.otf');
+}

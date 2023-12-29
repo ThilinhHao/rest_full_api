@@ -1,0 +1,208 @@
+.mt-1 {
+  margin-top: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+}
+
+.footer-hidden-btn {
+  .ant-picker-today-btn {
+    display: none;
+  }
+}
+
+#selectCenter_list + .rc-virtual-list {
+  .ant-select-item-option-content {
+    text-align: center;
+  }
+}
+
+.style-scroll-document::-webkit-scrollbar {
+  width: 6px;
+}
+
+.box-txt-status-company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.confirm-company-pair {
+  .btn-ok {
+    background: linear-gradient(90deg, #ffb239 0%, #fd9672 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .txt-confirm-b2b {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.813rem;
+  }
+  .txt-name-company-b2b {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.125rem;
+  }
+}
+
+.confirm-attendance {
+  .attendance-date-txt {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.813rem;
+    margin-bottom: 3rem;
+  }
+  .attendance-confirm-txt {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.813rem;
+  }
+  .btn-ok {
+    margin-left: 3rem;
+  }
+  .btn-cancel {
+    margin-right: 3rem;
+  }
+}
+
+.padding_hidden {
+  .ant-modal-content {
+    padding: 0 !important;
+  }
+  .ant-modal-body {
+    padding: 1.75rem 3rem 1.5rem 2.188rem !important;
+  }
+}
+
+.modal-noti-company-pair {
+  .btn-ok {
+    font-weight: 400;
+    background: #ffffff !important;
+    border: 1px solid #fd9670;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #fd9670 !important;
+  }
+
+  p {
+    margin-top: 4rem;
+  }
+}
+.txt-data-null {
+  text-align: center;
+  width: 100%;
+  font-size: 1.125rem;
+}
+
+input:disabled {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-opacity: 1;
+  color: #ffffff;
+}
+
+form {
+  .ant-form-item:not(.not-required) {
+    .ant-form-item-required {
+      flex-direction: row-reverse;
+
+      &::before {
+        margin-left: 0.313rem !important;
+        font-size: 1.5rem !important;
+        color: red !important;
+        font-weight: 500 !important;
+        font-family: Noto Sans JP, sans-serif !important;
+      }
+    }
+  }
+  .ant-form-item.not-required {
+    .ant-form-item-required {
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.ConfirmStatusInvoice {
+  .ant-modal-confirm-title {
+    margin-top: 1.5rem;
+  }
+  .ant-modal-confirm-content {
+    margin-left: 0;
+    margin-bottom: 6rem;
+  }
+  .ant-modal-confirm-btns {
+    button {
+      width: 9.125rem !important;
+      border-radius: 0.625rem !important;
+      margin: 0px 4rem;
+      &:first-child {
+        background: #b3b3b3;
+        color: white;
+      }
+      &:last-child {
+        background: #52b788;
+        color: white;
+      }
+    }
+  }
+}
+
+.confirm-opreator-transfer-agency {
+  .ant-modal-close {
+    display: none;
+  }
+  .title {
+    font-size: 2.188rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .otp {
+    width: 22.813rem;
+    margin: 0 auto;
+    margin-bottom: 4.75rem;
+  }
+  .count-downtime {
+    margin-bottom: 1rem;
+  }
+  .btn-ok {
+    margin: 0 1.875rem;
+    min-width: 9.125rem;
+    border-radius: 10px;
+    background-color: #52b788 !important;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.15);
+  }
+  .btn-cancel {
+    margin: 0 1.875rem;
+    min-width: 9.125rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #b3b3b3 !important;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.15);
+    span {
+      color: white;
+    }
+    &:hover {
+      color: white;
+      border: none;
+    }
+  }
+}

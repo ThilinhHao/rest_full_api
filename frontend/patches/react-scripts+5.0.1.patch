@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-scripts/config/webpack.config.js b/node_modules/react-scripts/config/webpack.config.js
+index e465d8e..5ef2b6e 100644
+--- a/node_modules/react-scripts/config/webpack.config.js
++++ b/node_modules/react-scripts/config/webpack.config.js
+@@ -713,7 +713,7 @@ module.exports = function (webpackEnv) {
+           // Bump up the default maximum size (2mb) that's precached,
+           // to make lazy-loading failure scenarios less likely.
+           // See https://github.com/cra-template/pwa/issues/13#issuecomment-722667270
+-          maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
++          maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
+         }),
+       // TypeScript type checking
+       useTypeScript &&

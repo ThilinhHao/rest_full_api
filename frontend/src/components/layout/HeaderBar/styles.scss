@@ -1,0 +1,30 @@
+.ant-select-dropdown {
+  width: auto !important;
+}
+
+#ListCompanyB2B_list + .rc-virtual-list .rc-virtual-list-holder-inner {
+  .ant-select-item {
+    background: #fdab29;
+    border-radius: 0.313rem;
+    box-shadow: 0.063rem 0.063rem 0.313rem rgba(0, 0, 0, 0.25);
+    width: 18.563rem;
+    height: 2.5rem;
+    margin: 0.313rem 0;
+    color: white !important;
+    &:hover {
+      color: #fdab29 !important;
+    }
+  }
+  .ant-select-item.ant-select-item-option-active {
+    background-color: white !important;
+    color: #fdab29 !important;
+  }
+  .ant-select-item.ant-select-item-option-selected {
+    background: linear-gradient(270deg, #fd9672 0%, #ffb239 100%) !important;
+    color: white !important;
+    &:hover {
+      background: white !important;
+      color: #fdab29 !important;
+    }
+  }
+}

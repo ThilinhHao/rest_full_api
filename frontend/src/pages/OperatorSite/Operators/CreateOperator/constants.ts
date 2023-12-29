@@ -1,0 +1,22 @@
+export const CONST_OPERATOR = {
+  OPERATOR: '運営アカウント発行',
+  OPERATOR_TITLE: '運営アカウント 発行',
+  ACCOUNT_LIST: '運営アカウント一覧',
+  NAME: 'お名前',
+  EMAIL: 'メールアドレス',
+  VERIFICATION: '登　録',
+  ERROR_FIRST_NAME: 'お名前は必要です',
+  ERROR_LAST_NAME: 'お名前(カナ)は必須です',
+  ERROR_KATAKANA: 'お名前(カナ)はカタカナのみ有効です',
+  ERROR_EMAIL: 'メールアドレスは必須です',
+  ERROR_FORMAT_EMAIL: 'メールアドレスが無効な値です。',
+  HOLDER_FIRST_NAME: '姓',
+  HOLDER_LAST_NAME: 'お名前(カナ)',
+  HOLDER_EMAIL: 'メールアドレス',
+  KANA_OPERATOR: 'お名前(カナ)',
+  PHONE: '電話番号',
+  ERROR_PHONE: '運営Telは整数のみ有効です',
+
+  HOLDER_NAME: '日本 太郎',
+  HOLDER_KANA: 'ニホン タロウ',
+};

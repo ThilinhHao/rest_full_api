@@ -1,0 +1,142 @@
+.modalCommon {
+  width: 62.5rem !important;
+  :global {
+    .ant-modal-content {
+      border-radius: 15px;
+      z-index: 1 !important;
+      .ant-modal-body {
+        text-align: center;
+        padding: 30px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .ant-modal-confirm-body-wrapper {
+          width: 100%;
+        }
+        .ant-modal-footer {
+          border: none;
+          padding: 0px 16px 30px 16px;
+          display: flex;
+          justify-content: space-around;
+        }
+        .ant-modal-confirm-title {
+          flex: 0 0 100% !important;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 2.188rem;
+          line-height: 2.625rem;
+          color: #333333;
+        }
+        .ant-modal-confirm-content {
+          /* font-family: 'M PLUS 1'; */
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.5rem;
+          line-height: 2.188rem;
+          margin-top: 4.375rem;
+          margin-bottom: 10rem;
+        }
+        .ant-modal-confirm-btns {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          .ant-btn-default,
+          .ant-btn-primary {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0.75rem;
+            border-radius: 2.5rem;
+            height: 3.5rem;
+            width: 13.125rem;
+            font-weight: 400;
+            font-size: 1.375rem;
+            /* font-family: 'M PLUS 1'; */
+            font-style: normal;
+            span {
+              margin-bottom: -0.3rem;
+            }
+            &:hover {
+              -ms-transform: scale(1.05);
+              -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+            }
+          }
+        }
+      }
+    }
+    .anticon {
+      display: none;
+    }
+  }
+}
+
+.modalSuccess {
+  :global {
+    .ant-modal-content {
+      width: 62.5rem;
+      min-height: 37.5rem;
+    }
+  }
+}
+
+.modalDelete {
+  :global {
+    .ant-modal-confirm-body-wrapper {
+      max-width: 40rem !important;
+    }
+  }
+}
+.deleteNotice {
+  :global {
+    .ant-modal-confirm-body-wrapper {
+      padding-top: 7rem !important;
+      padding-bottom: 1rem !important;
+      width: 61.688rem !important;
+    }
+
+    .ant-modal-body .ant-modal-confirm-content {
+      font-weight: 500 !important;
+      font-size: 2.188rem !important;
+      margin-top: 3.125rem !important;
+      margin-bottom: 7.125rem !important;
+    }
+  }
+}
+
+.modalPreview {
+  :global {
+    .ant-modal-content {
+      width: 72rem;
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      .ant-modal-body .ant-modal-confirm-content {
+        margin-bottom: 0rem !important;
+        margin-top: 0rem !important;
+      }
+      .ant-modal-confirm-body {
+        justify-content: center;
+        .ant-modal-confirm-content {
+          margin-inline-start: 0 !important;
+          max-width: 100% !important;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.modalCenter {
+  :global {
+    .ant-modal-confirm-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
